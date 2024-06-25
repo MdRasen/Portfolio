@@ -688,11 +688,6 @@ h3.my-profession {
   position: relative;
 }
 
-.portfolio .portfolio-item-innner:hover {
-  border: 6px solid var(--skin-color);
-  transition: all 1s ease;
-}
-
 .portfolio .portfolio-item-innner .portfolio-img img {
   width: 100%;
   position: absolute;
