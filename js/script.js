@@ -8,6 +8,25 @@ License: MIT License
 Copyright: 2023 ©MdRasen 
 */
 
+// Age count
+function age() {
+  const birthDate = new Date("1999-07-25");
+  const currentDate = new Date();
+  var age = currentDate.getFullYear() - birthDate.getFullYear();
+
+  if (currentDate.getMonth() < birthDate.getMonth()) {
+    age--;
+  } else if (
+    currentDate.getMonth() === birthDate.getMonth() &&
+    currentDate.getDate() < birthDate.getDate()
+  ) {
+    age--;
+  }
+
+  document.querySelector(".age").innerHTML = age;
+}
+age();
+
 // Typing animation
 var typed = new Typed(".typing", {
   strings: [
