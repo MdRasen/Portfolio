@@ -331,7 +331,7 @@ ul {
 
 h3.hello {
   font-size: 28px;
-  margin: 15px 0;
+  margin: 30px 0 15px;
 }
 
 h3.hello span {
@@ -351,7 +351,7 @@ h3.my-profession {
 }
 
 .home-info p {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 70px;
   color: var(--text-black-700);
 }
@@ -674,7 +674,7 @@ h3.my-profession {
   max-width: 33.33%;
   margin-bottom: 60px;
   width: 300px;
-  height: 320px;
+  height: 300px;
   position: relative;
 }
 
@@ -692,20 +692,25 @@ h3.my-profession {
   width: 100%;
   position: absolute;
   top: 0;
-  transition: top 1s ease;
+  transition: top 3s ease;
 }
 
 .portfolio .portfolio-item-innner .portfolio-img:hover img {
-  top: -100%;
+  top: -200%;
 }
 
 .portfolio .portfolio-info h4 {
-  font-size: 18px;
+  font-size: 14px;
   color: var(--text-black-700);
   font-weight: 700;
   text-transform: capitalize;
   text-align: center;
   margin: 5px 0 15px;
+  transition: all 0.3s ease;
+}
+
+.portfolio .portfolio-item:hover h4 {
+  color: var(--skin-color);
 }
 
 /* Portfolio End */
