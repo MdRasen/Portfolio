@@ -1013,6 +1013,10 @@ h3.my-profession {
 }
 
 @media (max-width: 416px) {
+  .home .row {
+    gap: 10px;
+  }
+
   h3.hello {
     font-size: 26px;
   }
@@ -1023,6 +1027,11 @@ h3.my-profession {
 
   .home-info p {
     font-size: 17px;
+  }
+
+  .home .home-img img {
+    width: 280px;
+    height: 420px;
   }
 }
 
